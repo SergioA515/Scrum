@@ -1,51 +1,76 @@
-body{
+body {
     background-color: black;
 }
-.MainBlock{
+
+.MainBlock {
     background-color: orange;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-div.Menu{
+
+div.Menu {
     width: 100%;
-    padding: 10px 100px;
+    padding: 35px 100px;
     border: solid red;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content:space-between;
-    
+    justify-content: space-between;
     gap: 20px;
 }
-.Title{
+
+.Title {
     padding: 0% 1%;
     width: 100px;
-    justify-content: center;
+    justify-content: left;
     border: solid blue;
     align-items: left;
     position: relative;
+    transform: translateX(-80%) translateY(-40%);
+
 }
-.btn{
+
+.greetings {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+h3 {
+    text-align: left;
+}
+
+.btn {
     width: 80px;
     height: 40px;
     border-radius: 10%;
 }
-.btn-btn1{
+
+.btn-btn1 {
     width: 80px;
     height: 40px;
     border-radius: 10%;
-    align-items:flex-start;
+    align-items: flex-start;
+    transform: translateX(385%) translateY(90%);
 }
-.btn-btn2{
+
+.btn-btn2 {
     width: 80px;
     height: 40px;
     border-radius: 10%;
-    
+    transform: translateX(2%) translateY(-20%);
+}
+
+.Rights {
+    background-color: orange;
+    padding: 35px 100px;
+    width: 100px;
+    height: 100px;
+    display: flex;
 }
 
 /* Contenedores */
-.Contain{
+.Contain {
     width: 100%;
     margin: auto;
     padding: 10px 10px;
@@ -54,19 +79,22 @@ div.Menu{
     gap: 1px;
     border: solid blue;
 }
-#access{
+
+#access {
     width: 100px;
     background-color: black;
     padding-top: 100%;
     padding-left: 100%;
 }
-#posts{
+
+#posts {
     width: 100px;
     background-color: rgb(49, 46, 43);
     padding-top: 100%;
     padding-left: 100%;
 }
-#notify{
+
+#notify {
     width: 100px;
     background-color: black;
     padding-top: 100%;
