@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+.MainBlock{
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.Menu{
+    width: 100%;
+    padding: 10px 100px;
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    gap: 20px;
+}
+.Title{
+    padding: 0% 1%;
+    width: 100px;
+    justify-content: center;
+    border: solid blue;
+    align-items: left;
+    position: relative;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+}
+.btn-btn1{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    align-items:flex-start;
+}
+.btn-btn2{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    
+}
+
+/* Contenedores */
+.Contain{
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: auto 2fr 1fr;
+    gap: 1px;
+    border: solid blue;
+}
+#access{
+    width: 100px;
+    background-color: black;
+    padding-top: 100%;
+    padding-left: 100%;
+}
+#posts{
+    width: 100px;
+    background-color: rgb(49, 46, 43);
+    padding-top: 100%;
+    padding-left: 100%;
+}
+#notify{
+    width: 100px;
+    background-color: black;
+    padding-top: 100%;
+    padding-left: 100%;
+}
