@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+.Contain {
+    width: 646px;
+    height: 606px;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: auto 2fr 1fr;
+    gap: 0px;
+    border: solid blue;
+}
+/* y esta para la seccion de menu lateral izquierda */
+.Contain #access {
+    background-color: black;
+    border: solid red;
+    width: 50px;
+    height: 600px;
+    /* margin: 1px; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
+    position:relative;
+}
+button.btn{
+    background-color: black;
+    border: solid black;
+    width: 30px;
+    height: 30px;
+    margin: 20%;
+    margin-top: 100%;
+    border-radius: 100%;
+    display:flex;
+    align-items:flex-start;
+    
+}
+img.btnImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transform: translateX(-30%);
+    
+}
+/* Esta para lo que se encuentra en el medio */
+.Contain #posts {
+    border: solid white;
+    width: 70%;
+    height: 15%;
+    background-color: rgb(49, 46, 43);
+    padding-top: 100%;
+    /* padding-left: 100%; */
+}
+.Contain #notify{
+    width: 30%;
+    height: 20%;
+    border: solid yellow;
+    background-color: blueviolet;
+    display: flex;
+    flex-flow:wrap;
+    align-items:center;
+    padding-top: 100%;
+}
